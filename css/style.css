@@ -36,10 +36,6 @@ ul {
 }
 .logo {
     margin: 0px;
-    padding-left: 215px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    p
 }
 
 img {
@@ -55,6 +51,9 @@ img {
 
 .web-navigation {
     display: flex;
+    padding-left: 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .navigation {
