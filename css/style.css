@@ -7,6 +7,69 @@ body {
     color: rgba(33, 33, 33, 1);
 }
 
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: sp;
+}
+
+.list {
+    list-style: none;
+}
+
+.section {
+    padding: 94px;
+}
+.logo {
+    margin: 0px;
+    padding-left: 215px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    p
+}
+
+img {
+    display: block;
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web-navigation {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-item {
+    margin-left: 23px;
+}
+
+.data-contact {
+    color: rgba(117, 117, 117, 1);
+}
+
 nav {
     font-size: 14px;
     font-weight: 500;
@@ -36,12 +99,8 @@ a {
     color: rgba(0, 0, 0, 1);
 }
 
-.data-contact {
-    color: rgba(117, 117, 117, 1);
-}
 a:hover {
     color: #2196F3;
-
 }
 
 .button_index {
@@ -69,6 +128,12 @@ a:hover {
     background-color: rgba(33, 150, 243, 1);
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
+}
+
+.button-head {
+    list-style: none;
+    justify-content: center;
+    display: flex;
 }
 
 .front {
@@ -102,6 +167,7 @@ h3 {
     font-weight: 700;
     line-height: 0.5;
 }
+
  .goal-title {
      font-size: 16px;
      font-weight: 700;
@@ -119,6 +185,7 @@ h3 {
 p {
     font-size: 16px;
     line-height: 0.53;
+    padding: 0;
 }
 
 .description {
@@ -133,6 +200,9 @@ p {
     text-align: center;
 }
 
+.project {
+    list-style: none;
+}
 footer {
     background-color: rgba(47, 48, 58, 1);
 }
