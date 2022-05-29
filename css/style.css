@@ -19,35 +19,34 @@ h3 {
     margin: 0;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
+/* z treści zadania B8*/
 
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 0;
 }
+
+/* fragment z wyliczonymi elementami bez kropek z wyliczenia */
 
 .list {
     list-style: none;
     display: flex;
 }
 
+/* z treści zadania B15*/
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.logo
-.heading {
-    margin: 0px;
-}
+/*obrazki jako block*/
 
 img {
     display: block;
 }
+
+/* header - logo, kontakt i nawigacja między stronami*/
 
 header {
     border-bottom: 1px solid #ECECEC;
@@ -68,7 +67,7 @@ header {
 }
 
 .navigation-item {
-    margin-left: 23px;
+    margin-right: 50px;
 }
 
 .data-contact {
@@ -98,6 +97,8 @@ span {
     font-size: 26px;
 }
 
+/* styl wszystkich linków (a) */
+
 a {
     text-decoration: none;
     font-weight: 500;
@@ -107,6 +108,8 @@ a {
 a:hover {
     color: #2196F3;
 }
+
+/* styl części na ciemno-szarym tle - pod nagłówkiem*/
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -123,6 +126,7 @@ h1 {
     background-color: rgba(47, 48, 58, 1);
     padding: 200px 452px 280px;
 }
+
 .button_index {
     font-size: 16px;
     font-weight: 500;
@@ -134,11 +138,14 @@ h1 {
     border: 0px;
     width: 200px;
     padding: 10px 42px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button_index:hover {
     cursor: pointer;
 }
+
+/* przyciski inne niż ten z ciemno-szarego tła*/
 
 .button {
     font-size: 16px;
@@ -165,15 +172,22 @@ h1 {
   margin-right: 8px;
 }
 
+/*w portfolio podpisy pod zdjęciami h3 i p*/
+
 .subtitules {
-    padding: 20px 24px 20px;
+    padding: 20px 24px 0;
+    box-shadow: rgba(238, 238, 238, 1);
+    border: 1px solid #EEEEEE;
+    margin: 0 0 30px 0;
 }
 
-.front {
-    background-color: rgba(47, 48, 58, 1);
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.13;
 }
 
-
+/* nagłówki nad zdjęciami w index.html*/
 
 h2 {
     font-size: 36px;
@@ -183,16 +197,13 @@ h2 {
     padding-bottom: 50px
 }
 
+/*tło pod zespołem*/
+
 .team {
     background-color: rgba(245, 244, 250, 1);
 }
 
-
-h3 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.13;
-}
+/* cel-tytuł: lorem ipsum stylowanie*/
 
  .goal-title {
      font-size: 16px;
@@ -200,6 +211,14 @@ h3 {
      line-height: 1.17;
      text-transform: uppercase;
  }
+
+p {
+    font-size: 16px;
+    line-height: 1.71;
+    padding: 0;
+}
+
+/* Zespół - stylowanie*/
 
  .group {
      font-size: 16px;
@@ -209,11 +228,7 @@ h3 {
      padding-top: 30px;
  }
  
-p {
-    font-size: 16px;
-    line-height: 1.71;
-    padding: 0;
-}
+ /*stylowanie tekstu pod lorem ipsum*/
 
 .description {
     line-height: 1.17;
@@ -225,6 +240,8 @@ p {
     padding-left: 30px;
 }
 
+/* Wykonywane zadanie w zespole - stylowanie*/
+
 .profession {
     font-size: 16px;
     line-height: 1.17;
@@ -232,40 +249,35 @@ p {
     text-align: center;
 }
 
+/*Projekty - przykłady w portfolio 
+- stylowanie + zawijanie do następnej linii*/
+
 .project {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    width: 370px;
 }
 
-ul.project {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    list-style: none;
-}
-
-.jobs {
-    padding: 30px;
-    padding-bottom: 20px;
-}
-.image-space {
-    padding: 0 0 10px 0;
-    flex-basis: calc(100% / 3 - 10px);
-}
+/*stylowanie zdjęć w naszym zespole 
+- trójwymiar i szerokość*/
 
 .list-1>.image-space {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     width: 270px;
-}
-
-.project>.image-space {
-    box-shadow: rgba(238, 238, 238, 1);
-    border: 1px solid #EEEEEE;
-    width: 370px;
     margin-bottom: 30px;
 }
+
+/*Stylowanie zdjęć w czym się zajmujemy
+- odstępy między zdjęciami*/
+
+.list>.image-space{
+    margin: 0 15px;
+}
+
+/*wielkość footera
+tło footera + marginesy + padding*/
 
 footer {
     background-color: rgba(47, 48, 58, 1);
@@ -276,9 +288,13 @@ footer {
     line-height: 1.71;
 }
 
+/* Kolor danych adresowych*/
+
 address {
     color: #FFFFFF;
 }
+
+/* Stylowanie nr telefonu i adresu mailowego w footerze*/
 
 .contact_footer {
     color: rgba(255, 255, 255, 0.6);
