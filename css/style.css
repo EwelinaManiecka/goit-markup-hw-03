@@ -131,30 +131,24 @@ a:hover {
 .button {
     font-size: 16px;
     font-weight: 500;
-    line-height: 0.61;
+    line-height: 1.625;
     text-align: center;
     background-color: rgba(245, 244, 250, 1);
     border-radius: 4px;
-    width: 121px;
-    height: 38px;
     padding: 6px 22px;
 }
-
-.button:not(:last-child){
-    padding-left: 8px;
-}
-
-.button:hover{
+.button:hover {
     background-color: rgba(33, 150, 243, 1);
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
-    padding: 6px 22px;
 }
-
 .button-head {
     list-style: none;
     justify-content: center;
     display: flex;
+}
+.button-head button:not(last-child) {
+  margin-right: 8px;
 }
 
 .job-navigation {
@@ -168,7 +162,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 44px;
     font-weight: 900;
-    line-height: 0.73;
+    line-height: 1.36;
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -204,18 +198,18 @@ h3 {
  .group {
      font-size: 16px;
      font-weight: 500;
-     line-height: 0.85;
+     line-height: 1.17;
      text-align: center;
  }
  
 p {
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.71;
     padding: 0;
 }
 
 .description {
-    line-height: 0.58;
+    line-height: 1.17;
     color: rgba(117, 117, 117, 1);
     width: 270px;
 }
@@ -226,7 +220,7 @@ p {
 
 .profession {
     font-size: 16px;
-    line-height: 0.85;
+    line-height: 1.17;
     color: rgba(117, 117, 117, 1);
     text-align: center;
 }
