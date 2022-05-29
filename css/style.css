@@ -28,7 +28,6 @@ ul {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    margin: 0 auto;
 }
 
 .list {
@@ -150,6 +149,9 @@ a:hover {
   margin-right: 8px;
 }
 
+.subtitules {
+    padding: 20px 24px 20px;
+}
 
 .front {
     background-color: rgba(47, 48, 58, 1);
@@ -164,11 +166,14 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     display: flex;
+    position: absolute;
 }
 
 .heading {
     background-color: rgba(47, 48, 58, 1);
+    padding: 200px 452px 280px;
 }
+
 h2 {
     font-size: 36px;
     font-weight: 700;
@@ -181,11 +186,11 @@ h2 {
     background-color: rgba(245, 244, 250, 1);
 }
 
+
 h3 {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.13;
-    padding-bottom: 4px;
 }
 
  .goal-title {
