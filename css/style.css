@@ -258,8 +258,13 @@ p {
     flex-wrap: wrap;
 }
 
+
 .project>.image-space{
     margin-left: 15px;
+}
+
+.project.image-space:nth-child(3n + 1){
+    margin-left: 0;
 }
 /*stylowanie zdjęć w naszym zespole 
 - trójwymiar i szerokość*/
