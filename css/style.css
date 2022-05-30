@@ -287,13 +287,13 @@ footer {
     padding-right: auto;
     padding-bottom: 161px;
     padding-left: 215px;
-    line-height: 1.71;
 }
 
 /* Kolor danych adresowych*/
 
 address {
     color: #FFFFFF;
+    font-style: normal;
 }
 
 /* Stylowanie nr telefonu i adresu mailowego w footerze*/
@@ -303,10 +303,7 @@ address {
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
-}
-
-.second_name span {
-    color: #2196F3;;
+    padding-bottom: 9px;
 }
 
 .second_name span {
