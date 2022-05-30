@@ -256,9 +256,11 @@ p {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    width: 370px;
 }
 
+.project>.image-space{
+    margin-left: 30px;
+}
 /*stylowanie zdjęć w naszym zespole 
 - trójwymiar i szerokość*/
 
