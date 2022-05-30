@@ -256,16 +256,26 @@ p {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0;
 }
 
 
 .project>.image-space{
     margin-left: 15px;
+    margin-right: 15px;
 }
+
+/* 
 
 .project.image-space:nth-child(3n + 1){
     margin-left: 0;
 }
+
+.project.image-space:nth-last-child(3n + 1){
+    margin-right: 0;
+}
+*/
+
 /*stylowanie zdjęć w naszym zespole 
 - trójwymiar i szerokość*/
 
