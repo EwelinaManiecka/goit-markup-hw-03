@@ -211,6 +211,8 @@ h2 {
      line-height: 1.17;
      text-transform: uppercase;
      justify-content: center;
+     padding-left: 15px;
+     padding-right: 15px;
  }
 
 p {
@@ -236,6 +238,8 @@ p {
     color: rgba(117, 117, 117, 1);
     width: 270px;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .description:not(:last-child){
