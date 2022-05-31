@@ -125,18 +125,17 @@ h1 {
 .heading {
     background-color: rgba(47, 48, 58, 1);
     padding: 200px 452px 280px;
+    text-align: center;
 }
 
 .button_index {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.86;
-    text-align: center;
     color: white;
     background-color: rgba(33, 150, 243, 1);
     border-radius: 4px;
     border: 0px;
-    width: 200px;
     padding: 10px 42px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -301,7 +300,7 @@ footer {
     padding-top: 60px;
     padding-right: auto;
     padding-bottom: 161px;
-    padding-left: 215px;
+    padding-left: 50px;
 }
 
 /* Kolor danych adresowych*/
@@ -335,6 +334,6 @@ address {
 
 .net-contact {
     list-style: none;
-    padding: 20px auto 9px;
-    margin: 0;
+    padding-left: 0;
+    padding-top: 9px;
 }
