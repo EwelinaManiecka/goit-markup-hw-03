@@ -126,6 +126,7 @@ h1 {
     background-color: rgba(47, 48, 58, 1);
     padding: 200px 452px 280px;
     text-align: center;
+    justify-content: center;
 }
 
 .button_index {
@@ -155,7 +156,7 @@ h1 {
     border-radius: 4px;
     padding: 6px 22px;
     border: 0;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 .button:hover {
     background-color: rgba(33, 150, 243, 1);
@@ -301,6 +302,9 @@ footer {
     padding-right: auto;
     padding-bottom: 161px;
     padding-left: 50px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Kolor danych adresowych*/
