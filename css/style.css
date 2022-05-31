@@ -31,6 +31,8 @@ h3 {
 .list {
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    padding-left: 0;
 }
 
 /* z treści zadania B15*/
@@ -54,7 +56,6 @@ header {
 
 .web-navigation {
     display: flex;
-    padding-left: 215px;
     padding-top: 24px;
     padding-bottom: 25px;
     justify-content: space-between;
@@ -211,8 +212,6 @@ h2 {
      line-height: 1.17;
      text-transform: uppercase;
      justify-content: center;
-     padding-left: 15px;
-     padding-right: 15px;
  }
 
 p {
@@ -227,6 +226,7 @@ p {
      font-size: 16px;
      font-weight: 500;
      line-height: 1.17;
+     background-color: whi;
      text-align: center;
      padding-top: 30px;
  }
@@ -238,8 +238,6 @@ p {
     color: rgba(117, 117, 117, 1);
     width: 270px;
     justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .description:not(:last-child){
@@ -264,24 +262,8 @@ p {
     flex-wrap: wrap;
     padding-left: 0;
     margin-top: 0;
+    justify-content: space-between;
 }
-
-
-.project>.image-space{
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-/* Może to działać będzie?
-
-.project.image-space:nth-child(3n + 1){
-    margin-left: 0;
-}
-
-.project.image-space:nth-last-child(3n + 1){
-    margin-right: 0;
-}
-*/
 
 /*stylowanie zdjęć w naszym zespole 
 - trójwymiar i szerokość*/
@@ -298,6 +280,8 @@ p {
 
 .list>.image-space{
     margin: 0 15px;
+    padding-left: 0;
+    background-color: white;
 }
 
 /*wielkość footera
@@ -306,11 +290,7 @@ tło footera + marginesy + padding*/
 footer {
     background-color: rgba(47, 48, 58, 1);
     padding-top: 60px;
-    padding-right: auto;
-    padding-left: auto;
     padding-bottom: 161px;
-    text-align: left;
-    align-items: center;
 }
 
 /* Kolor danych adresowych*/
