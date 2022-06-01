@@ -55,9 +55,8 @@ header {
 }
 
 .web-navigation {
+    height: 80px;
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 25px;
     justify-content: space-between;
     align-items: center;
 }
@@ -68,7 +67,7 @@ header {
 }
 
 .navigation-item {
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .data-contact {
@@ -125,7 +124,7 @@ h1 {
 
 .heading {
     background-color: rgba(47, 48, 58, 1);
-    padding: 200px 452px 280px;
+    padding: 200px auto 280px;
     text-align: center;
     justify-content: center;
 }
@@ -279,7 +278,6 @@ p {
 - odstępy między zdjęciami*/
 
 .list>.image-space{
-    margin: 0 15px;
     padding-left: 0;
     background-color: white;
 }
