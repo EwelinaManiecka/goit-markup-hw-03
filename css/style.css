@@ -40,6 +40,9 @@ h3 {
 .section {
     padding-top: 47px;
     padding-bottom: 47px;
+    height: 600px;
+    display: flex;
+    align-items: center;
 }
 
 /*obrazki jako block*/
